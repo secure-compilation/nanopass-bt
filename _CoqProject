@@ -1,0 +1,35 @@
+-arg "-w -parsing -exclude-dir _opam"
+-R . RobustImp
+
+Common/Definitions.v
+Common/Values.v
+Common/Maps.v
+Common/Util.v
+Common/Memory.v
+Common/Linking.v
+Common/Blame.v
+Common/CompCertExtensions.v
+Common/Either.v
+Common/CoqMaps.v
+Common/Traces.v
+Common/Tree.v
+
+CompCert/Coqlib.v
+CompCert/Behaviors.v
+CompCert/Smallstep.v
+CompCert/Events.v
+
+Lib/Tactics.v
+Lib/Monads.v
+Lib/Extra.v
+
+Source/Language.v
+Source/GlobalEnv.v
+Source/CS.v
+Source/BacktranslationMisc.v
+Source/BacktranslationCompilers.v
+Source/BacktranslationLanguages.v
+Source/Extra.v
+Source/BacktranslationSimulations.v
+Source/BacktranslationExpressions.v
+Source/Theorem.v
